@@ -52,6 +52,7 @@ typedef struct
 {
   int status;
   String body;
+  char buffer[1024];
 } http_response_t;
 
 class HttpClient {
